@@ -236,6 +236,9 @@ SparkLite.get("/App/hello", (req, res) ->
 **Usage:** `http://localhost:35000/App/hello?name=Pedro`
 **Response:** `Hello Pedro`
 
+<img width="473" height="157" alt="image" src="https://github.com/user-attachments/assets/d96565c5-e67d-44aa-8b7f-fdd1943c963f" />
+
+
 #### Mathematical Endpoint
 
 ```java
@@ -245,6 +248,9 @@ SparkLite.get("/App/pi", (req, res) ->
 
 **Usage:** `http://localhost:35000/App/pi`
 **Response:** `3.141592653589793`
+
+<img width="336" height="111" alt="image" src="https://github.com/user-attachments/assets/8f2e2b5b-6573-4900-a2cb-c383001cc303" />
+
 
 #### Endpoint with Multiple Parameters
 
@@ -257,6 +263,9 @@ SparkLite.get("/App/search", (req, res) -> {
 ```
 
 **Usage:** `http://localhost:35000/App/search?q=java&category=tutorials`
+
+<img width="565" height="104" alt="image" src="https://github.com/user-attachments/assets/dfbb1266-93f2-4a11-9f79-30a217d727a8" />
+
 
 ### Configuring Static Files
 
@@ -284,7 +293,11 @@ public static void main(String[] args) throws Exception {
 - `http://localhost:35000/index.html`
 - `http://localhost:35000/style.css`
 - `http://localhost:35000/script.js`
-- `http://localhost:35000/logo.png`
+- `http://localhost:35000/image.png`
+- `http://localhost:35000/test.GIF`
+
+<img width="1907" height="938" alt="image" src="https://github.com/user-attachments/assets/df78111f-cf49-4dec-9770-ff275d979413" />
+
 
 ---
 
